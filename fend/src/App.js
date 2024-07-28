@@ -3,6 +3,7 @@ import Header from './Header';
 import Welcome from './Welcome';
 import Footer from './Footer';
 import Login from './Login';
+import Signup from './Signup';
 import './index.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Welcome />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer/>
       </BrowserRouter>
