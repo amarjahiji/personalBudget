@@ -1,3 +1,13 @@
+
+
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  background-color: #FAF9F6;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +17,229 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url(./fonts/Gotham-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url(./fonts/Gotham-Light.otf) format('opentype');
+}
+
+header{
+  background-color: #FAF9F6;
+}
+ 
+
+header h1 {
+  text-align: center;
+  font-family: 'Gotham-Bold';
+}
+header span {
+  color: #4169E1;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.slogan {
+  background-color: #FAF9F6;
+  text-align: left;
+  padding: 7% 15%;
+  border-right: 2px solid black;
+}
+
+.slogan h2 {
+  font-family: 'Gotham-Bold';
+  font-size: 128px;
+}
+
+.slogan p {
+  font-size: 36px;
+  font-family: 'Gotham-Light';
+}
+
+.getin {
+  background-color: #FAF9F6;
+  text-align: left;
+  padding: 10% 14%;
+}
+
+.getin h2 {
+  font-family: 'Gotham-Bold';
+  font-size: 110px;
+  color:  #4169E1;
+}
+.getin p {
+  font-size: 36px;
+  font-family: 'Gotham-Light';
+  margin-top: -50px;
+}
+
+.getin span {
+  color: #4169E1;
+  font-family: 'Gotham-Bold'; 
+}
+
+footer {
+  background-color: rgb(243, 235, 235);
+
+}
+
+.footercolumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footercolumn1 {
+  text-align: left;
+  padding: 5% 10%;
+}
+.footercolumn1 h1 {
+  font-family: 'Gotham-Bold';
+  font-size: 32px;
+  
+}
+
+.footercolumn1 p {
+  font-family: 'Gotham-Light';
+  font-size: 20px;
+  
+}
+
+.footercolumn2 {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.footercolumn2 h1 {
+  font-family: 'Gotham-Bold';
+  font-size: 32px;
+ 
+;
+}
+
+.footercolumn2 p {
+  font-family: 'Gotham-Light';
+  font-size: 20px;
+}
+
+
+.footercolumn3 {
+  text-align: center;
+  padding: 5% -10%;
+}
+.footercolumn3 h1 {
+  font-family: 'Gotham-Bold';
+  font-size: 32px;
+  
+}
+
+.footercolumn3 p {
+  font-family: 'Gotham-Light';
+  font-size: 20px;
+ 
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sloganlogin {
+  background-color: #FAF9F6;
+  text-align: left;
+  padding: 7% 15%;
+  border-right: 2px solid black;
+}
+
+.sloganlogin h2 {
+  font-family: 'Gotham-Bold';
+  font-size: 128px;
+}
+
+.sloganlogin p {
+  font-size: 36px;
+  font-family: 'Gotham-Light';
+}
+
+.login {
+  background-color: #FAF9F6;
+  text-align: left;
+  padding: 10% 14%;
+}
+
+.login h2 {
+  font-family: 'Gotham-Bold';
+  font-size: 110px;
+  color:  #4169E1;
+}
+.login p {
+  font-size: 36px;
+  font-family: 'Gotham-Light';
+  margin-top: -50px;
+}
+
+.login-form {
+  background-color: #FAF9F6;
+  padding: 5% 10%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group h2 {
+  font-family: 'Gotham-Bold';
+  font-size: 48px;
+  color: #4169E1;
+  margin-bottom: 20px;
+}
+
+.form-group p {
+  font-family: 'Gotham-Light';
+  font-size: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-family: 'Gotham-Light';
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Gotham-Light';
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 20%;
+  margin-top: 12%;
+  padding-left: 0%;
+  font-size: 36px;
+  font-family: 'Gotham-Light';
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  text-align: left;
+}
+
+.form-group button:hover {
+  background-color: #365ABF;
 }
