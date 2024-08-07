@@ -37,6 +37,7 @@ header{
 header h1 {
   text-align: center;
   font-family: 'Gotham-Bold';
+  cursor: pointer;
 }
 header span {
   color: #4169E1;
@@ -62,6 +63,7 @@ header span {
 .slogan p {
   font-size: 36px;
   font-family: 'Gotham-Light';
+  cursor: pointer;
 }
 
 .getin {
@@ -74,6 +76,7 @@ header span {
   font-family: 'Gotham-Bold';
   font-size: 110px;
   color:  #4169E1;
+  cursor: pointer;
 }
 .getin p {
   font-size: 36px;
@@ -83,7 +86,8 @@ header span {
 
 .getin span {
   color: #4169E1;
-  font-family: 'Gotham-Bold'; 
+  font-family: 'Gotham-Bold';
+  cursor: pointer;
 }
 
 footer {
@@ -105,46 +109,53 @@ footer {
 .footercolumn1 h1 {
   font-family: 'Gotham-Bold';
   font-size: 32px;
+  cursor: pointer;
   
 }
 
 .footercolumn1 p {
   font-family: 'Gotham-Light';
   font-size: 20px;
+  cursor: pointer;
   
 }
 
 .footercolumn2 {
   text-align: center;
   padding: 5% 10%;
+  cursor: pointer;
 }
 
 .footercolumn2 h1 {
   font-family: 'Gotham-Bold';
   font-size: 32px;
- 
+ cursor: pointer;
 ;
 }
 
 .footercolumn2 p {
   font-family: 'Gotham-Light';
   font-size: 20px;
+cursor: pointer;
 }
 
 
 .footercolumn3 {
   text-align: center;
   padding: 5% -10%;
+  cursor: pointer;
 }
 .footercolumn3 h1 {
   font-family: 'Gotham-Bold';
   font-size: 32px;
+  cursor: pointer;
   
 }
 
 .footercolumn3 p {
   font-family: 'Gotham-Light';
   font-size: 20px;
+  cursor: pointer;
  
 }
 
@@ -242,4 +253,80 @@ button {
 
 .form-group button:hover {
   background-color: #365ABF;
+}
+
+.budget-wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: -10%;
+  padding: 5% 10%;
+}
+
+.budget-summary {
+  text-align: center;
+  padding: 5% 10%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.budget-title {
+  font-family: 'Gotham-Bold';
+  font-size: 48px;
+  color: #4169E1;
+  margin-bottom: 10px;
+}
+
+.budget-amount {
+  font-family: 'Gotham-Light';
+  font-size: 20px;
+  color: #333;
+}
+
+.transaction-form {
+  text-align: center; 
+  padding: 5% 10%;
+}
+
+.transaction-field {
+  margin-bottom: 20px; 
+}
+
+.transaction-select,
+.transaction-input {
+  display: block;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Gotham-Light';
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%; 
+}
+
+.transaction-button {
+  margin-right: 10%;
+  padding-top: 10px;
+  font-size: 25px;
+  font-family: 'Gotham-Light';
+  cursor: pointer;
+  color: #000000;
+  margin-top: 20px; 
+}
+
+.transaction-button:hover {
+  color: #222222;
+}
+
+
+.error-message {
+  color: #D8000C; 
+  padding: 10px;
+  margin-bottom: 20px; 
+  font-family: 'Gotham-Light';
+  font-size: 16px; 
+  text-align: left; 
 }
